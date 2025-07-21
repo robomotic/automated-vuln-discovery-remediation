@@ -143,6 +143,43 @@ SecurityEval is a specialized evaluation dataset designed to assess the security
 
 This completes the comprehensive collection with all five datasets you specified. SecurityEval fills an important niche by focusing on the security evaluation of AI-generated code, complementing the other datasets which primarily contain real-world vulnerabilities and their fixes for detection and repair research.
 
+# Software Vulnerability Datasets: Sorted by Most Recent Updates
+
+Based on the comprehensive dataset analysis from our previous conversation, here is the complete list of **16 software vulnerability datasets** sorted by their most recent updates, from newest to oldest:
+
+![Comprehensive table of software vulnerability datasets sorted by most recent updates](https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/e2c83492c1e1bcd042053fd2fe250f23/e97c37fa-3fe7-46a5-997e-8d3d68c0e7b4/beb55162.png)
+
+Comprehensive table of software vulnerability datasets sorted by most recent updates
+
+## Key Insights from the Sorted Analysis
+
+### **Most Current Datasets (2024-2025)**
+
+**ICVul (2025)** stands as the newest dataset, representing the latest advancement in vulnerability research with enhanced metadata including Vulnerability-Contributing Commits (VCCs) and improved labeling reliability.
+
+**CVEfixes (2024)** maintains its position as the most actively updated dataset, with the latest version (v1.0.8) covering vulnerabilities up to July 2024. This continuous update cycle makes it highly valuable for current research.
+
+**MoreFixes (2024)** offers the largest scale with **26,617 unique CVEs**, making it the most comprehensive dataset available for extensive vulnerability research.
+
+**VulnPatchPairs (2024)** and **MegaVul (2024)** provide specialized approaches - paired vulnerability analysis and comprehensive C/C++ coverage respectively.
+
+### **Established Recent Datasets (2021-2023)**
+
+**DiverseVul (2023)** provides the most diverse project coverage with **18,945 vulnerable functions** across **295 new projects** not found in previous datasets.
+
+The **2021 generation** includes PatchDB, CrossVul, and D2A, each offering unique methodological approaches - security-focused patching, multi-language coverage (40+ languages), and differential analysis respectively.
+
+### **Classic Benchmarks (2018-2020)**
+
+**BigVul (2020)**, **Devign (2019)**, and **VulDeePecker (2018)** remain essential benchmarks in vulnerability detection research, despite their age. These datasets continue to be widely cited and used for baseline comparisons.
+
+**SySeVR (2018)** contains the largest number of vulnerability candidates with **420,627 SeVCs**, though its semantic-based approach requires careful consideration for modern applications.
+
+### **Continuously Updated Standards**
+
+**SARD/Juliet** represents a special category with continuous updates from NIST, maintaining **450,000+ test cases** covering **150+ CWE classes**. While including synthetic cases, it provides the most comprehensive coverage of vulnerability types.
+
+
 ## Key Considerations for Dataset Selection
 
 **For Comprehensive Research:** MoreFixes or CVEfixes provide the largest scale and best coverage.
@@ -156,6 +193,14 @@ This completes the comprehensive collection with all five datasets you specified
 **For Patch Analysis:** VulnPatchPairs and D2A specifically focus on before/after fix comparisons.
 
 **For Established Baselines:** Devign, BigVul, and VulDeePecker remain standard benchmarks in vulnerability detection literature.
+
+**For cutting-edge research:** Use ICVul (2025) or CVEfixes (2024) for the most current vulnerabilities and methodologies.
+
+**For large-scale studies:** MoreFixes (2024) provides the largest comprehensive dataset.
+
+**For comparative studies:** Include classic benchmarks (BigVul, Devign) alongside recent datasets for baseline comparisons.
+
+**For specialized applications:** Choose based on language requirements (MegaVul for C/C++, CrossVul for multi-language) or specific research focus (SecurityEval for code generation, PatchDB for security patches).
 
 These datasets collectively represent the most comprehensive collection of realistic software vulnerabilities with their fixes, enabling advanced research in vulnerability detection, automated program repair, and security analysis across multiple programming languages and vulnerability types.
 
